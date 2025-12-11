@@ -9,4 +9,8 @@ class Meret extends Model
 {
     /** @use HasFactory<\Database\Factories\MeretFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'meretvalasztek',
+    ];
 }

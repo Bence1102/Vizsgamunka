@@ -9,4 +9,9 @@ class ar extends Model
 {
     /** @use HasFactory<\Database\Factories\ArFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'akcio',
+        'osszeg',
+    ];
 }

@@ -9,4 +9,11 @@ class Regisztracio extends Model
 {
     /** @use HasFactory<\Database\Factories\RegisztracioFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'regisztracio_id',
+        'felhasznalo_id',
+        'datum',
+        'felulet',
+    ];
 }

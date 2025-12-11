@@ -9,4 +9,13 @@ class Blog extends Model
 {
     /** @use HasFactory<\Database\Factories\BlogFactory> */
     use HasFactory;
+
+    protected $fillable=[
+        'id',
+        'cim',
+        'tartalom',
+        'szerzo_id',
+        'publikacio_datuma',
+        'nyelv_id',
+    ];
 }

@@ -9,4 +9,12 @@ class Nyelv extends Model
 {
     /** @use HasFactory<\Database\Factories\NyelvFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'id',
+        'kulcs_nev',
+        'nyelv_kod',
+        'penznem',
+
+    ];
 }
