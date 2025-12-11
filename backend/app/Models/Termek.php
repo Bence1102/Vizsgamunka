@@ -9,4 +9,13 @@ class Termek extends Model
 {
     /** @use HasFactory<\Database\Factories\TermekFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'cikkszam',
+        'nev',
+        'leiras',
+        'statusz',
+        'marka',
+        'tipus',
+    ];
 }

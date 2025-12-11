@@ -9,4 +9,12 @@ class Telephely extends Model
 {
     /** @use HasFactory<\Database\Factories\TelephelyFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'id',
+        'szekhely_id',
+        'nev',
+        'tipus',
+        'cim',
+    ];
 }

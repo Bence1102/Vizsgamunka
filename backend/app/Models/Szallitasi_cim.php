@@ -9,4 +9,14 @@ class Szallitasi_cim extends Model
 {
     /** @use HasFactory<\Database\Factories\SzallitasiCimFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'szallitasi_cim_id',
+        'felhasznalo_id',
+        'orszag',
+        'iranyitoszam',
+        'varos',
+        'utca_szam',
+        'megjegyzes'
+    ];
 }

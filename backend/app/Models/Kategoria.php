@@ -9,4 +9,10 @@ class Kategoria extends Model
 {
     /** @use HasFactory<\Database\Factories\KategoriaFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'marka',
+        'kategoria',
+        'tipus'
+    ];
 }

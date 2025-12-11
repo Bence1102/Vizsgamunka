@@ -9,4 +9,11 @@ class Keszlet extends Model
 {
     /** @use HasFactory<\Database\Factories\KeszletFactory> */
     use HasFactory;
+
+    protected $fillable = [
+        'cikkszan',
+        'meretvalasztek',
+        'szabvany',
+        'mennyiseg'
+    ];
 }
